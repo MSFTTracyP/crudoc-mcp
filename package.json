@@ -1,0 +1,9 @@
+{
+  "name": "crudoc-mcp",
+  "version": "1.1.0",
+  "description": "CRUDoc MCP Server — Create, Read, Update, Delete documents with path sandboxing, atomic writes, and sensitivity label detection. Supports .md, .txt, .yaml, .json, .docx, .pdf, and all text formats.",
+  "author": "Tracy Paddock",
+  "license": "MIT",
+  "repository": "https://github.com/MSFTTracyP/crudoc-mcp",
+  "keywords": ["mcp", "documents", "crud", "docx", "pdf", "yaml", "sensitivity-labels"]
+}

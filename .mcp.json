@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "crudoc": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "."
+    }
+  }
+}

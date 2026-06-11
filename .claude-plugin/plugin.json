@@ -1,0 +1,12 @@
+{
+  "name": "crudoc-mcp",
+  "description": "Document CRUD operations via MCP — create, read, update, delete, archive, list, and inspect documents. Supports .md, .txt, .yaml, .json, .docx, .pdf, and all text formats. Features sensitivity label detection, atomic writes, and path sandboxing.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Tracy Paddock",
+    "github": "MSFTTracyP"
+  },
+  "homepage": "https://github.com/MSFTTracyP/crudoc-mcp",
+  "repository": "https://github.com/MSFTTracyP/crudoc-mcp",
+  "keywords": ["documents", "crud", "mcp", "docx", "pdf", "yaml", "json", "markdown", "sensitivity-labels", "microsoft"]
+}
