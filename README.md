@@ -24,9 +24,33 @@ copilot plugin install MSFTTracyP/crudoc-mcp
 
 That's it. The server loads automatically on next session.
 
-### VS Code / Other MCP Clients
+### VS Code
 
-Clone this repo and add to your `.mcp.json` or VS Code settings:
+Clone the repo, then add to `.vscode/mcp.json` in your workspace (or user settings):
+
+```bash
+git clone https://github.com/MSFTTracyP/crudoc-mcp.git
+cd crudoc-mcp
+pip install -r requirements.txt
+```
+
+`.vscode/mcp.json`:
+
+```json
+{
+  "servers": {
+    "crudoc": {
+      "command": "python",
+      "args": ["server.py"],
+      "cwd": "C:/path/to/crudoc-mcp"
+    }
+  }
+}
+```
+
+### Other MCP Clients (Claude Desktop, etc.)
+
+Add to your MCP client config (e.g. `claude_desktop_config.json`):
 
 ```json
 {
